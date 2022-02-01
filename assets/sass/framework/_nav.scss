@@ -1,0 +1,32 @@
+ .navbar {
+    background-color: $fifthcolor!important;
+}
+#menu-primary-menu{
+    margin-right: auto;
+        li {
+            @media screen and (max-width: 992px) {
+                margin-top: 10px;
+                margin-bottom: 10px;;
+            }
+           
+            a {
+                text-decoration: none;
+                color: $secondarycolor;
+                padding: .5rem 1rem;
+                
+                &:hover{
+                    color: $primarycolor;
+                    transition: ease-in 0.2s;
+                }
+            }
+        }
+        .current-menu-item{
+            a {
+                color: $primarycolor;
+                &:hover{
+                    color: $secondarycolor;
+                }
+
+            }
+        }
+}

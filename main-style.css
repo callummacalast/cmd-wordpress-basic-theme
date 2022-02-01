@@ -1,0 +1,83 @@
+body {
+  background-color: #FCFCFC;
+}
+
+.page-template-front-page .carousel-header .carousel-inner {
+  background-color: #000;
+}
+
+.page-template-front-page .carousel-header .carousel-item img {
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  opacity: 0.5;
+}
+
+.page-template-front-page .img-features .post-features img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page-template-page-about .media-text-alternate .col-img img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-template-page-about .media-text-alternate a {
+    width: 100% !important;
+  }
+}
+
+.navbar {
+  background-color: #293241 !important;
+}
+
+#menu-primary-menu {
+  margin-right: auto;
+}
+
+@media screen and (max-width: 992px) {
+  #menu-primary-menu li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+#menu-primary-menu li a {
+  text-decoration: none;
+  color: #98c1d9;
+  padding: .5rem 1rem;
+}
+
+#menu-primary-menu li a:hover {
+  color: #3d5a80;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+
+#menu-primary-menu .current-menu-item a {
+  color: #3d5a80;
+}
+
+#menu-primary-menu .current-menu-item a:hover {
+  color: #98c1d9;
+}
+
+footer {
+  background-color: #293241;
+}
+
+.contact-form {
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=main-style.css.map */

@@ -1,0 +1,26 @@
+.page-template-front-page {
+    .carousel-header{
+        .carousel-inner{
+            background-color: #000;
+        }
+        .carousel-item{
+            img {
+                height: 50vh;
+                object-fit: cover;
+                object-position: center;
+                opacity: 0.5;
+            }
+        }
+    }
+    .img-features{
+        .post-features{
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                object-fit: cover;
+            }
+        }
+    }
+}

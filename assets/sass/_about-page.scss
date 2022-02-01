@@ -1,0 +1,17 @@
+.page-template-page-about{
+    .media-text-alternate {
+        .col-img {
+            img {
+                height: 400px;
+                object-fit: cover;
+                border-radius: 5px;
+                
+            }
+        }
+        a {
+            @media screen and (max-width: 768px) {
+                width: 100%!important;
+            }
+        }
+    }
+}
